@@ -14,6 +14,7 @@ import (
 func Generator(ctx context.Context, ch chan<- int64, fn func(int64)) {
 	// 1. Функция Generator
 	// ...
+
 }
 
 // Worker читает число из канала in и пишет его в канал out.
