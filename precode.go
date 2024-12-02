@@ -17,7 +17,7 @@ func Generator(ctx context.Context, ch chan<- int64, fn func(int64)) {
 
 }
 
-// Worker читает число из канала in и пишет его в канал out.
+// Worker читает число из канала in и пишет его в канал out.fghgh
 func Worker(in <-chan int64, out chan<- int64) {
 	// 2. Функция Worker
 	// ...
